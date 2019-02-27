@@ -3,5 +3,5 @@ require 'pry'
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash.each {key| puts key.min}
+  name_hash.each {key, key_2| puts if key < key_2 puts key}
 end
